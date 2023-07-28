@@ -40,3 +40,28 @@ body {
   gap: 15px;
   
 }
+
+.filterdiv{
+  background-color: rgb(221, 215, 215);
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 40px;
+
+}
+
+.itemcontainerdiv{
+  background-color: red;
+  width: 90%;
+}
+
+.categorysortdiv{
+  display: flex;
+  flex-direction: row;
+}
