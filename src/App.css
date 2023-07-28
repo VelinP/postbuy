@@ -1,7 +1,13 @@
+
+
+
 body { 
   margin: 0;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  min-width:300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .mainnav{
@@ -9,7 +15,7 @@ body {
   flex-direction: column;
   opacity: 0.90;
   height: 70px;
-  background-color: rgb(212, 207, 204);
+  background-color: rgb(248, 232, 232);
   box-shadow: 3px 3px 3px black;
   text-shadow: 1px 1px 2px rgb(18, 171, 232);
   position: sticky;
@@ -27,14 +33,14 @@ body {
 
 }
 
-/* .mainul a:hover{
+.mainul a:hover{
   box-shadow: 2px 2px 2px 2px #07245f;
-  background-color: orange;
-  transition: 0.3s;
+  background-color: rgb(255, 170, 0);
   border-radius: 10px;
   padding: 10px;
+  transition: 0.3s;
 
-} */
+}
 
 .mainul{
   display: flex;
@@ -49,9 +55,15 @@ body {
   display: flex;
   gap: 10px;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .main{
+  
+}
+
+
+.contentdiv{
   display: flex;
   justify-content:space-around;
   margin-top: 40px;
@@ -59,9 +71,9 @@ body {
   /* box-shadow: 5px 10px 18px #888888; */
   margin-left: 10px;
   margin-right: 10px;
-
-
+  gap: 60px;
 }
+
 
 .itemcontainerdiv{
   width: 90%;
@@ -98,6 +110,11 @@ body {
 
 }
 
+homepagecardbody{
+  text-shadow: 1px 1px 2px pink;
+
+}
+
 .homepagecardheader:hover{
   box-shadow: 0 0 30px wheat,0 0 30px #07245f;
 
@@ -105,4 +122,36 @@ body {
 
 .homepagecardbody{
   padding: 10px;
+}
+
+.footer {
+  background: rgb(97, 97, 97);
+  margin-top: auto;
+  color: white;
+  padding: 3em;
+  text-align: center;
+
+}
+
+.testh1{
+  position: absolute;
+  border-radius: 70%;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 25px;
+  right: 10px;
+
+}
+
+.loadmorebuttondiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  
+}
+
+.loadmorebuttondiv button{
+  width: 500px;
+  height: 50px;
 }

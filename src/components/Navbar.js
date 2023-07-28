@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import {FaHome} from 'react-icons/fa'
 
+
 export const Navbar = ()=>{
 
     return(
@@ -14,8 +15,9 @@ export const Navbar = ()=>{
             <Link to ="/watches">Watches</Link>
             <Link to ="/mens">Mens</Link>
             <Link to ="/womens">Womens</Link>
+            <Link to ="/Unisex">Unisex</Link>
+
             </>
-        
         
 
         </ul>
