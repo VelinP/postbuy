@@ -7,6 +7,7 @@ import { Mens } from './components/Mens';
 import { Womens } from './components/Womens';
 import { Watches } from './components/Watches';
 import { Footer } from './components/Footer';
+import { Details } from './components/Details';
 
 function App() {
   return (
@@ -23,12 +24,13 @@ function App() {
         <Route path="/womens" element={<Womens/>}/>
         <Route path="/shoes" element={<Shoes/>}/>
         <Route path="/watches" element={<Watches/>}/>
+        <Route path="/offers/:id/details" element={<Details/>}/>
 
       </Routes>
 
       
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }

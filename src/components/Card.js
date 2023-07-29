@@ -11,12 +11,12 @@ export const Card = (props) =>{
 
         
     <div className="homepagecardheader">
-        <Link to={`/offers/${props.info._id}/details`} ><img className="homepagecardimg" src={props.info.img} alt='nothing'></img></Link>
+        <Link to={`/offers/${props.info.id}/details`} ><img className="homepagecardimg" src={props.info.img} alt='nothing'></img></Link>
         <div className="homepagecardbody">
-            <div style={{justifyContent:"left", display:"flex"}}>{props.info.model}</div>
-            <div style={{justifyContent:"left", display:"flex", color:'green'}}>{props.info.price}</div>
-            <div style={{justifyContent:"left", display:"flex"}}>{props.info.stars}</div>
-            <div style={{justifyContent:"left", display:"flex" , paddingBottom:"20px"}}><button onClick={buyFunc} img src={cart} alt="Image">Buy</button></div>
+            <div style={{justifyContent:"center", display:"flex"}}>{props.info.model}</div>
+            <div style={{justifyContent:"center", display:"flex", color:'green'}}>{props.info.price}</div>
+            <div style={{justifyContent:"center", display:"flex"}}>{props.info.stars}</div>
+            {/* <div style={{justifyContent:"center", display:"flex" , paddingBottom:"20px"}}><button onClick={buyFunc} img src={cart} alt="Image">Buy</button></div> */}
 
         </div>
         
