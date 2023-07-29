@@ -82,7 +82,7 @@ export const Bag = () =>{
         <div className="loadmorebuttondiv">
 
         {next < content?.length && (
-            <button  onClick={handleMoreImage}>Load more</button>)}
+            <button className="morebutton" onClick={handleMoreImage}>Load more</button>)}
 
         </div>
         </>
