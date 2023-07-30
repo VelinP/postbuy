@@ -76,30 +76,33 @@ export const items =
 
     {shoes:[
         { 
-            brand : 'Gucci',
+            brand : 'Lanvin',
             price: 10000, 
-            img : 'https://cdn1.jolicloset.com/imgr/full/2021/07/328744-1/gucci-baskets-ace-shoes-454551-36-it-37-fr-white-leather-sneakers-shoes.jpg',
-            model: ' GUCCI JORDAAN LOAFER',
+            img : 'https://cdn-images.farfetch-contents.com/20/91/45/41/20914541_50914236_1000.jpg',
+            model: 'oversized-lace sneakers',
             stars: '⭐⭐⭐☆☆',
             id : 100,
+            description : "Lanvin takes a bold approach to minimalist style with this pair sneakers. Oversized elements such as the silhoutte and laces on this design creates an eye-catching effect."
         },
     
     
         { 
-            brand : 'Wooden Flip Flops',
+            brand : 'Valentino Garavani',
             price: 1020, 
-            img : 'https://m.media-amazon.com/images/I/61gvZF5iEUL._AC_UY1000_.jpg',
-            model: 'Generic flip flops',
+            img : 'https://cdn-images.farfetch-contents.com/18/36/38/59/18363859_39559641_1000.jpg',
+            model: 'Roman Stud low-top sneakers',
             stars: '⭐⭐⭐☆☆',
-            id : 103
+            id : 103,
+            description : "Introduced in 2020, Valentino Garavani's Roman Stud is an enlarged version of the brand's iconic Rockstud embellishment. Seen adorning these low-top leather sneakers, the tonal hardware subtly elevates the brown and white pair."
         },
         { 
-            brand : 'Gucci',
+            brand : 'Off-White',
             price: 10000, 
-            img : 'https://cdn1.jolicloset.com/imgr/full/2021/07/328744-1/gucci-baskets-ace-shoes-454551-36-it-37-fr-white-leather-sneakers-shoes.jpg',
-            model: 'GUCCI JORDAAN LOAFER',
+            img : 'https://cdn-images.farfetch-contents.com/20/53/52/24/20535224_50539785_1000.jpg',
+            model: 'Off-Court 3.0 sneakers',
             stars: '⭐⭐⭐☆☆',
             id : 104,
+            description: "Inspired by shoes from straight off the basketball court, Off-White's Off-Court 3.0 sneakers boast a sporty aesthetic. The high-top pair is characterised by the signature hallmarks: from the Zip Tie tag to the Arrows motif on the side."
         },
     
     
@@ -109,7 +112,8 @@ export const items =
             img : 'https://m.media-amazon.com/images/I/61gvZF5iEUL._AC_UY1000_.jpg',
             model: 'Generic flip flops',
             stars: '⭐⭐⭐☆☆',
-            id : 107
+            id : 107,
+            description: "Wooden style traditional Japanese flip-flops. Not very practical to use nowadays , but they look pretty cool."
         }
     
     

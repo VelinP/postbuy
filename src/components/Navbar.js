@@ -13,9 +13,9 @@ export const Navbar = ()=>{
             <Link to ="/bags">Bags</Link>
             <Link to ="/shoes">Shoes</Link>
             <Link to ="/watches">Watches</Link>
-            <Link to ="/mens">Mens</Link>
+            {/* <Link to ="/mens">Mens</Link>
             <Link to ="/womens">Womens</Link>
-            <Link to ="/Unisex">Unisex</Link>
+            <Link to ="/Unisex">Unisex</Link> */}
 
             </>
         
