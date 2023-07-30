@@ -205,6 +205,7 @@ homepagecardbody{
   color: black;
   margin-top: 50px;
   height: 750px;
+  gap: 50px;
   
 }
 
@@ -219,7 +220,8 @@ homepagecardbody{
   justify-content: center;
   
   flex-direction: column;
-  margin: 70px;
+  /* margin: 70px; */
+  margin-top: 100px;
 }
 
 .detailsbuttonsdiv button{
