@@ -3,7 +3,7 @@ export const items =
     {bags:[
     { 
         brand : 'Prada',
-        price: 1400, 
+        price: 1450, 
         img : 'https://cdn-images.farfetch-contents.com/19/66/40/44/19664044_43931188_1000.jpg',
         model: 'logo-knit gingham tote bag',
         stars: '⭐⭐⭐☆☆',
@@ -13,7 +13,7 @@ export const items =
 
     { 
         brand : 'Gucci',
-        price: 1400, 
+        price: 2000, 
         img : 'https://cdn-images.farfetch-contents.com/20/05/34/18/20053418_45031807_1000.jpg',
         model: 'Blondie logo-patch tote bag',
         stars: '⭐⭐⭐☆☆',
@@ -33,7 +33,7 @@ export const items =
 
     { 
         brand : 'Valentino Garavani',
-        price: 1400, 
+        price: 1220, 
         img : 'https://cdn-images.farfetch-contents.com/18/65/76/52/18657652_41118271_1000.jpg',
         model: 'One stud shoulder bag',
         stars: '⭐⭐⭐☆☆',
@@ -43,7 +43,7 @@ export const items =
 
     { 
         brand : 'Miu Miu',
-        price: 1400, 
+        price: 1150, 
         img : 'https://cdn-images.farfetch-contents.com/20/24/22/33/20242233_50188167_1000.jpg',
         model: 'Madras Leather Shoulder bag',
         stars: '⭐⭐⭐☆☆',
@@ -53,7 +53,7 @@ export const items =
 
     { 
         brand : 'Gucci',
-        price: 1400, 
+        price: 2210, 
         img : 'https://cdn-images.farfetch-contents.com/20/80/22/66/20802266_50690683_1000.jpg',
         model: 'Double G crystal-embellished bucket bag',
         stars: '⭐⭐⭐☆☆',
@@ -64,7 +64,7 @@ export const items =
 
     { 
         brand : 'Versace',
-        price: 1400, 
+        price: 400, 
         img : 'https://cdn-images.farfetch-contents.com/20/06/59/86/20065986_50721894_1000.jpg',
         model: 'large La Medusa embellished tote bag',
         stars: '⭐⭐⭐☆☆',
@@ -97,7 +97,7 @@ export const items =
         },
         { 
             brand : 'Off-White',
-            price: 10000, 
+            price: 500, 
             img : 'https://cdn-images.farfetch-contents.com/20/53/52/24/20535224_50539785_1000.jpg',
             model: 'Off-Court 3.0 sneakers',
             stars: '⭐⭐⭐☆☆',
@@ -108,7 +108,7 @@ export const items =
     
         { 
             brand : 'Wooden Flip Flops',
-            price: 1020, 
+            price: 102, 
             img : 'https://m.media-amazon.com/images/I/61gvZF5iEUL._AC_UY1000_.jpg',
             model: 'Generic flip flops',
             stars: '⭐⭐⭐☆☆',

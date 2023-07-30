@@ -3,12 +3,14 @@ import { useState , useEffect} from "react"
 import { Card } from "./Card"
 import { items } from "../data";
 import { Footer } from "./Footer";
+import { DropDownSorter } from "./DropDownSorter";
 
 const imagePerRow = 6;
 
 export const Watches = () =>{
-    
     const [content ,setcontent] = useState([])
+    const [dropdownactive , setdropdownactive] = useState(false)
+
     useEffect(()=> {setcontent(items[2].watches)},[])
     
     const [next, setNext] = useState(imagePerRow);
@@ -16,20 +18,33 @@ export const Watches = () =>{
         setNext(next + imagePerRow);
       };
 
-
+      const togglefunc = () =>{
+        if(!dropdownactive){
+            setdropdownactive(true)
+        }else{
+            setdropdownactive(false)
+        }
+    }
 
 
 
     return(
         
             <>
+                 <div className="extraassetsdiv">
+            <div className="totalnumbersdiv">{content.length} products total in this section</div>
+            <button onClick={togglefunc} className="sortbutton">Sort</button>
+            
+
+        </div>
+        {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive}/>}
+            
+            
             <div className="contentdiv">
                 <Filter/>
-                {/* {content?.length > 0 ? <div className="testh1">{content?.length}</div> : <h1></h1>} */}
 
             
                 <div className="itemcontainerdiv">
-                {/* {content?.map(content => <Card info ={content} key={content.id}/>)} */}
                 {content?.slice(0, next)?.map(content => <Card info ={content} key={content.id}/>)}
 
 
@@ -49,3 +64,4 @@ export const Watches = () =>{
     
     )
 }
+
