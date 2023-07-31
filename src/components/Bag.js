@@ -44,7 +44,7 @@ export const Bag = () =>{
             <Filter info={content} state={setcontent} static = {staticcontent}/>
             <div className="itemcontainerdiv">
             {content?.slice(0, next)?.map(content => <Card info ={content} key={content.id}/>)}
-            </div>
+        </div>
             
         </div>
 
