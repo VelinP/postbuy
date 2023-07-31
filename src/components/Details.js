@@ -38,15 +38,19 @@ export const Details = () =>{
                 
                 
                 <div className="descdiv">
-                    <h1 style={{justifyContent:"center", display:"flex"}}>{currentDetails?.brand}</h1>
-                    <h2 style={{color:'green',justifyContent:"left", display:"flex"}}>${currentDetails?.price}</h2>
+                    <h1 style={{justifyContent:"left", display:"flex"}}>{currentDetails?.brand}</h1>
+
+                    <div className="detailspricesdiv">
+                        <div >${currentDetails?.price}</div>
+                        <strike className="discountdiv" style={{justifyContent:"center", display:"flex", color:'red', }}>{currentDetails?.discount}</strike>
+                    </div>
+
+
+
                     <p style={{justifyContent:"left", display:"flex"}}>{currentDetails?.stars}</p>
                     <p>{currentDetails?.model}</p>
                     
 
-
-
-                    {/* <h1 id="offerdescription">Description:</h1> */}
                     <p>{currentDetails?.description}</p>
                     
                     <div className="detailsbuttonsdiv">

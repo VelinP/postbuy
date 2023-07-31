@@ -40,7 +40,7 @@ export const Bag = () =>{
         </div>
         {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive}/>}
         <div className="contentdiv">
-            <Filter/>
+            <Filter info={content} state={setcontent}/>
             <div className="itemcontainerdiv">
             {content?.slice(0, next)?.map(content => <Card info ={content} key={content.id}/>)}
             </div>

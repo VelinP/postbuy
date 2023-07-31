@@ -8,7 +8,9 @@ export const items =
         model: 'logo-knit gingham tote bag',
         stars: '⭐⭐⭐☆☆',
         id : 1,
-        description: 'logo-knit gingham tote bag from PRADA featuring light blue, white, straw, interwoven design, intarsia-knit logo, two top handles and open top'
+        description: 'logo-knit gingham tote bag from PRADA featuring light blue, white, straw, interwoven design, intarsia-knit logo, two top handles and open top',
+        discount: "$2000"
+        
     },
 
     { 
@@ -18,7 +20,9 @@ export const items =
         model: 'Blondie logo-patch tote bag',
         stars: '⭐⭐⭐☆☆',
         id : 2,
-        description: 'Blondie logo-patch tote bag featuring leather , gold-tone hardware and the signature Interlocking G logo, as well as an adjustable detachable shoulder strap and all-around zip fastening making it extremely comfortable.'
+        description: 'Blondie logo-patch tote bag featuring leather , gold-tone hardware and the signature Interlocking G logo, as well as an adjustable detachable shoulder strap and all-around zip fastening making it extremely comfortable.',
+        discount: ""
+
     },
 
     { 
@@ -28,7 +32,9 @@ export const items =
         model: 'medium Crush denim shoulder bag',
         stars: '⭐⭐⭐☆☆',
         id : 3,
-        description: "Characterised by its arching silhouette, Balenciaga's Crush bag highlights the brand's focus on contemporary design. This iteration is presented in faded mid-wash denim with diagonal quilting and topped with a signature B plaque and chain strap in matching silver-tone metal."
+        description: "Characterised by its arching silhouette, Balenciaga's Crush bag highlights the brand's focus on contemporary design. This iteration is presented in faded mid-wash denim with diagonal quilting and topped with a signature B plaque and chain strap in matching silver-tone metal.",
+        discount: "$3100"
+
     },
 
     { 
@@ -38,7 +44,8 @@ export const items =
         model: 'One stud shoulder bag',
         stars: '⭐⭐⭐☆☆',
         id : 4,
-        description : "Introduced for SS22, Valentino Garavani's One Stud bag is defined by its envelope silhouette and statement Rockstud embellishment at the front, an iconic house motif. Crafted from soft lambskin in Italy, this accessory can be worn across the body or at the shoulder thanks to its adjustable chain-link strap."
+        description : "Introduced for SS22, Valentino Garavani's One Stud bag is defined by its envelope silhouette and statement Rockstud embellishment at the front, an iconic house motif. Crafted from soft lambskin in Italy, this accessory can be worn across the body or at the shoulder thanks to its adjustable chain-link strap.",
+        discount: ""
     },
 
     { 
@@ -48,7 +55,8 @@ export const items =
         model: 'Madras Leather Shoulder bag',
         stars: '⭐⭐⭐☆☆',
         id : 5,
-        description: "This bag from Miu Miu is elevated by gold-tone hardware: note the gleaming logo lettering and oversized lobster claw fastening at the front. It's crafted in Italy from white leather to a retro-inspired silhouette with an adjustable shoulder strap."
+        description: "This bag from Miu Miu is elevated by gold-tone hardware: note the gleaming logo lettering and oversized lobster claw fastening at the front. It's crafted in Italy from white leather to a retro-inspired silhouette with an adjustable shoulder strap.",
+        discount: ""
     },
 
     { 
@@ -58,7 +66,8 @@ export const items =
         model: 'Double G crystal-embellished bucket bag',
         stars: '⭐⭐⭐☆☆',
         id : 6,
-        description: 'A beautiful Gucci latest model bag featuring silver tone hardware and a beautiful aquatic blue color, as well as the iconic double G logo, along with chain-link detailing and drawstring fastening.'
+        description: 'A beautiful Gucci latest model bag featuring silver tone hardware and a beautiful aquatic blue color, as well as the iconic double G logo, along with chain-link detailing and drawstring fastening.',
+        discount: "$2500"
 
     },
 
@@ -69,7 +78,8 @@ export const items =
         model: 'large La Medusa embellished tote bag',
         stars: '⭐⭐⭐☆☆',
         id : 7,
-        description: "Versace’s tote is an eye-catching take on classic beach bags. Crafted from raffia and bordered with black leather trims, it’s adorned with a Medusa Head plaque and silver-tone studs."
+        description: "Versace’s tote is an eye-catching take on classic beach bags. Crafted from raffia and bordered with black leather trims, it’s adorned with a Medusa Head plaque and silver-tone studs.",
+        discount: ""
 
     }
     ]},
@@ -122,12 +132,13 @@ export const items =
     {watches:[
         { 
             brand : 'Rado',
-            price: '10000 (20% discount)', 
+            price: 10000, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100051806/main/large/master.jpg',
             model: 'Mens Rado Hyperchrome Chronograph Watch',
             stars: '⭐⭐⭐☆☆',
             id : 200,
-            description: "This 45 mm HyperChrome Chronograph with the Rado R312 quartz movement inside comes with a dark grey dial, which perfectly matches the 3-row polished stainless steel bracelet with rose gold coloured brushed middle links"
+            description: "This 45 mm HyperChrome Chronograph with the Rado R312 quartz movement inside comes with a dark grey dial, which perfectly matches the 3-row polished stainless steel bracelet with rose gold coloured brushed middle links",
+            discount: "$30000"
         },
     
         { 
@@ -137,7 +148,9 @@ export const items =
             model: 'Mens Maurice Lacroix Aikon Automatic Summer',
             stars: '⭐⭐⭐⭐⭐',
             id : 201,
-            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection"
+            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection",
+            discount: ""
+
         },
     
         { 
@@ -147,7 +160,8 @@ export const items =
             model: 'Maurice Lacroix Aikon Automatic Summer Edition Set',
             stars: '⭐☆☆☆☆',
             id : 202,
-            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection"
+            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection",
+            discount: "$30"
 
         },
     
@@ -158,8 +172,8 @@ export const items =
             model: 'Mens Tissot PRX Watch',
             stars: '⭐⭐⭐☆☆',
             id : 203,
-            description : "Tissot PRX T1374071135100 is a functional and very impressive Gents watch from PRX collection. Case is made out of Stainless Steel, which stands for a high quality of the item and the Blue dial gives the watch that unique look."
-
+            description : "Tissot PRX T1374071135100 is a functional and very impressive Gents watch from PRX collection. Case is made out of Stainless Steel, which stands for a high quality of the item and the Blue dial gives the watch that unique look.",
+            discount: "$2500"
     
             
         },
@@ -168,10 +182,11 @@ export const items =
             brand : 'Head',
             price: 1020, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100049161/main/large/HEAD_Moscow_H160400_02.jpg',
-            model: 'Unisex Head Silver Stainless Steel and Black Leather strap Paris Smartwatch',
+            model: 'Unisex Black Leather strap Paris Smartwatch',
             stars: '⭐⭐⭐☆☆',
             id : 204,
-            description :"The PARIS smartwatch offers you more than you would expect! Because when it comes to optimal and extensive features, the PARIS is your all-rounder that becomes your companion in any situation. Check your messages and calls and at the same time your health by monitoring your sleep, measuring your ECG, blood pressure or heart rate."
+            description :"The PARIS smartwatch offers you more than you would expect! Because when it comes to optimal and extensive features, the PARIS is your all-rounder that becomes your companion in any situation. Check your messages and calls and at the same time your health by monitoring your sleep, measuring your ECG, blood pressure or heart rate.",
+            discount: ""
         },
     
         {
@@ -242,7 +257,7 @@ export const items =
             brand : 'Head',
             price: 1020, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100049161/main/large/HEAD_Moscow_H160400_02.jpg',
-            model: 'Unisex Head Silver Stainless Steel and Black Leather strap Paris Smartwatch',
+            model: 'Unisex Black Leather strap Paris Smartwatch',
             stars: '⭐⭐⭐☆☆',
             id : 212,
             description :"The PARIS smartwatch offers you more than you would expect! Because when it comes to optimal and extensive features, the PARIS is your all-rounder that becomes your companion in any situation. Check your messages and calls and at the same time your health by monitoring your sleep, measuring your ECG, blood pressure or heart rate."

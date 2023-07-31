@@ -11,7 +11,11 @@ export const Card = (props) =>{
 
             <div style={{justifyContent:"center", display:"flex"}}>{props.info.brand}</div>
             <div style={{justifyContent:"center", display:"flex"}}>{props.info.model}</div>
-            <div style={{justifyContent:"center", display:"flex", color:'green'}}>${props.info.price}</div>
+            <div className="pricesdiv">
+                <div >${props.info.price}</div>
+                <strike className="discountdiv" style={{justifyContent:"center", display:"flex", color:'red', }}>{props.info.discount}</strike>
+            </div>
+            
             <div style={{justifyContent:"center", display:"flex"}}>{props.info.stars}</div>
 
         </div>
@@ -23,4 +27,4 @@ export const Card = (props) =>{
     )
 }
 
-
+// style={{justifyContent:"center", display:"flex", color:'green'}}
