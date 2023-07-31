@@ -56,11 +56,9 @@ body {
   gap: 10px;
   flex-direction: column;
   border-radius: 10px;
+  justify-content: left;
 }
 
-.main{
-  
-}
 
 
 .contentdiv{
@@ -324,4 +322,29 @@ homepagecardbody{
   right: 2rem;
   content: '';
   transform: rotate(45deg); 
+}
+
+.filterdiv button{
+  border: none;
+  background-color: inherit;
+  display: flex;
+  font-weight:bolder;
+  text-shadow: 1px 1px 2px pink;
+  font-size: 20px;
+
+
+}
+
+.filterdiv button:hover{
+  transition: 0.2s;
+  color: rgb(162, 154, 154);;
+
+}
+
+.nocontentdiv{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
 }

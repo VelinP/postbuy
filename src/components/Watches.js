@@ -41,10 +41,24 @@ export const Watches = () =>{
             </div>
             {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive}/>}
             <div className="contentdiv">
+
+
                 <Filter info={content} state={setcontent} static = {staticcontent}/>
-                <div className="itemcontainerdiv">
-                {content?.slice(0, next)?.map(content => <Card info ={content} key={content.id}/>)}
-            </div>
+                {content.length > 0
+                    
+                    ?
+
+                    <div className="itemcontainerdiv">
+                    {content?.slice(0, next)?.map(content => <Card info ={content} key={content.id}/>)}
+                    </div>
+                    
+                    :
+                
+                    <h1 className="nocontentdiv">
+                    No items found
+                    </h1>
+                
+                    }
                 
             </div>
 

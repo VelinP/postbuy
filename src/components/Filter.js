@@ -1,8 +1,8 @@
 export const Filter = (props) =>{
     let oldarr = props.static
-    debugger;
 
-    const discountfilter = () =>{
+    const discountfilter = (e) =>{
+        console.log(e.Style)
         props.state(oldarr.filter(item => item.discount != ""))
         
     }
@@ -27,6 +27,10 @@ export const Filter = (props) =>{
         props.state(oldarr.filter(item => item.price >= 5000))
 
     }
+
+    const allproductsfilter = () =>{
+        props.state(oldarr)
+    }
     
     return(
 
@@ -34,10 +38,11 @@ export const Filter = (props) =>{
             <h1>Filter</h1>
             <button onClick={discountfilter}>Discount</button>
             <h1>Filter Price</h1>
+            <button onClick={allproductsfilter}>All Products</button>
             <button onClick={shopbypricefilter500}>$100 - $500</button>
             <button onClick={shopbypricefilter2000}>$500 - $2000</button>
             <button onClick={shopbypricefilter5000}>$2000 - $5000</button>
-            <button onClick={shopbypricefilterabove5000}>$5000 +</button>
+            <button onClick={shopbypricefilterabove5000}>Over $5000</button>
          
             
 

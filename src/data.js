@@ -92,7 +92,8 @@ export const items =
             model: 'oversized-lace sneakers',
             stars: '⭐⭐⭐☆☆',
             id : 100,
-            description : "Lanvin takes a bold approach to minimalist style with this pair sneakers. Oversized elements such as the silhoutte and laces on this design creates an eye-catching effect."
+            description : "Lanvin takes a bold approach to minimalist style with this pair sneakers. Oversized elements such as the silhoutte and laces on this design creates an eye-catching effect.",
+            discount: ""
         },
     
     
@@ -103,7 +104,8 @@ export const items =
             model: 'Roman Stud low-top sneakers',
             stars: '⭐⭐⭐☆☆',
             id : 103,
-            description : "Introduced in 2020, Valentino Garavani's Roman Stud is an enlarged version of the brand's iconic Rockstud embellishment. Seen adorning these low-top leather sneakers, the tonal hardware subtly elevates the brown and white pair."
+            description : "Introduced in 2020, Valentino Garavani's Roman Stud is an enlarged version of the brand's iconic Rockstud embellishment. Seen adorning these low-top leather sneakers, the tonal hardware subtly elevates the brown and white pair.",
+            discount: "$1500"
         },
         { 
             brand : 'Off-White',
@@ -112,7 +114,8 @@ export const items =
             model: 'Off-Court 3.0 sneakers',
             stars: '⭐⭐⭐☆☆',
             id : 104,
-            description: "Inspired by shoes from straight off the basketball court, Off-White's Off-Court 3.0 sneakers boast a sporty aesthetic. The high-top pair is characterised by the signature hallmarks: from the Zip Tie tag to the Arrows motif on the side."
+            description: "Inspired by shoes from straight off the basketball court, Off-White's Off-Court 3.0 sneakers boast a sporty aesthetic. The high-top pair is characterised by the signature hallmarks: from the Zip Tie tag to the Arrows motif on the side.",
+            discount: "$1000"
         },
     
     
@@ -123,7 +126,8 @@ export const items =
             model: 'Generic flip flops',
             stars: '⭐⭐⭐☆☆',
             id : 107,
-            description: "Wooden style traditional Japanese flip-flops. Not very practical to use nowadays , but they look pretty cool."
+            description: "Wooden style traditional Japanese flip-flops. Not very practical to use nowadays , but they look pretty cool.",
+            discount: ""
         }
     
     
@@ -196,7 +200,8 @@ export const items =
             model: 'Boss Hero Sport Lux Watch',
             stars: '⭐⭐⭐☆☆',
             id : 205,
-            description: "BOSS gents watch from the Hero family. Featuring a 43mm stainless steel case, crown protection, gold IP tachymeter bezel, blue dial, two toned stainless steel and gold IP bracelet and push button deployment. Water resistant to 5ATM."
+            description: "BOSS gents watch from the Hero family. Featuring a 43mm stainless steel case, crown protection, gold IP tachymeter bezel, blue dial, two toned stainless steel and gold IP bracelet and push button deployment. Water resistant to 5ATM.",
+            discount: ""
         },
     
         {
@@ -206,7 +211,8 @@ export const items =
             model: 'Unisex Bulova Octava Automatic Automatic Watch',
             stars: '⭐⭐⭐☆☆',
             id : 206,
-            description: "Laden with crystals, this spectacular timepiece comprises a stainless steel and gold-toned case, with a patterned dial featuring even more crystals, along with slim gold hour baton markers and luminous hands."
+            description: "Laden with crystals, this spectacular timepiece comprises a stainless steel and gold-toned case, with a patterned dial featuring even more crystals, along with slim gold hour baton markers and luminous hands.",
+            discount: ""
         },
         { 
             brand : 'Rado',
@@ -215,7 +221,8 @@ export const items =
             model: 'Mens Rado Hyperchrome Chronograph Watch',
             stars: '⭐⭐⭐☆☆',
             id : 207,
-            description: "This 45 mm HyperChrome Chronograph with the Rado R312 quartz movement inside comes with a dark grey dial, which perfectly matches the 3-row polished stainless steel bracelet with rose gold coloured brushed middle links"
+            description: "This 45 mm HyperChrome Chronograph with the Rado R312 quartz movement inside comes with a dark grey dial, which perfectly matches the 3-row polished stainless steel bracelet with rose gold coloured brushed middle links",
+            discount: ""
 
         },
     
@@ -226,7 +233,8 @@ export const items =
             model: 'Mens Maurice Lacroix Aikon Automatic Summer',
             stars: '⭐⭐⭐⭐⭐',
             id : 209,
-            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection"
+            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection",
+            discount: "$1300"
 
         },
     
@@ -237,7 +245,8 @@ export const items =
             model: 'Maurice Lacroix Aikon Automatic Summer Edition Set',
             stars: '⭐☆☆☆☆',
             id : 210,
-            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection"
+            description : "Maurice Lacroix watches meet and exceed all the impossibly high standards the global community has come to expect from Swiss watchmakers, such as Tissot, while also delivering exciting, stylish products that appeal to those with a heightened sense of perfection",
+            discount: ""
 
         },
     
@@ -248,7 +257,8 @@ export const items =
             model: 'Mens Tissot PRX Watch',
             stars: '⭐⭐⭐☆☆',
             id : 211,
-            description : "Tissot PRX T1374071135100 is a functional and very impressive Gents watch from PRX collection. Case is made out of Stainless Steel, which stands for a high quality of the item and the Blue dial gives the watch that unique look."
+            description : "Tissot PRX T1374071135100 is a functional and very impressive Gents watch from PRX collection. Case is made out of Stainless Steel, which stands for a high quality of the item and the Blue dial gives the watch that unique look.",
+            discount: ""
     
             
         },
@@ -260,7 +270,8 @@ export const items =
             model: 'Unisex Black Leather strap Paris Smartwatch',
             stars: '⭐⭐⭐☆☆',
             id : 212,
-            description :"The PARIS smartwatch offers you more than you would expect! Because when it comes to optimal and extensive features, the PARIS is your all-rounder that becomes your companion in any situation. Check your messages and calls and at the same time your health by monitoring your sleep, measuring your ECG, blood pressure or heart rate."
+            description :"The PARIS smartwatch offers you more than you would expect! Because when it comes to optimal and extensive features, the PARIS is your all-rounder that becomes your companion in any situation. Check your messages and calls and at the same time your health by monitoring your sleep, measuring your ECG, blood pressure or heart rate.",
+            discount: ""
         },
     
         {
@@ -270,7 +281,8 @@ export const items =
             model: 'Boss Hero Sport Lux Watch',
             stars: '⭐⭐⭐☆☆',
             id : 213,
-            description: "BOSS gents watch from the Hero family. Featuring a 43mm stainless steel case, crown protection, gold IP tachymeter bezel, blue dial, two toned stainless steel and gold IP bracelet and push button deployment. Water resistant to 5ATM."
+            description: "BOSS gents watch from the Hero family. Featuring a 43mm stainless steel case, crown protection, gold IP tachymeter bezel, blue dial, two toned stainless steel and gold IP bracelet and push button deployment. Water resistant to 5ATM.",
+            discount: ""
 
         },
     
@@ -281,7 +293,8 @@ export const items =
             model: 'Unisex Bulova Octava Automatic Automatic Watch',
             stars: '⭐⭐⭐☆☆',
             id : 214,
-            description: "Laden with crystals, this spectacular timepiece comprises a stainless steel and gold-toned case, with a patterned dial featuring even more crystals, along with slim gold hour baton markers and luminous hands."
+            description: "Laden with crystals, this spectacular timepiece comprises a stainless steel and gold-toned case, with a patterned dial featuring even more crystals, along with slim gold hour baton markers and luminous hands.",
+            discount: ""
 
         }
     ]}
