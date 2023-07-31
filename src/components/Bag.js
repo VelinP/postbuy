@@ -12,8 +12,9 @@ const imagePerRow = 6;
 export const Bag = () =>{
     const [content ,setcontent] = useState([])
     const [dropdownactive , setdropdownactive] = useState(false)
+    const [staticcontent ,setstaticcontent] = useState([])
 
-    useEffect(()=> {setcontent(items[0].bags)},[])
+    useEffect(()=> {setcontent(items[0].bags);setstaticcontent(items[0].bags)},[])
 
     const [next, setNext] = useState(imagePerRow);
     const handleMoreImage = () => {
@@ -38,9 +39,9 @@ export const Bag = () =>{
             
 
         </div>
-        {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive}/>}
+        {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive} />}
         <div className="contentdiv">
-            <Filter info={content} state={setcontent}/>
+            <Filter info={content} state={setcontent} static = {staticcontent}/>
             <div className="itemcontainerdiv">
             {content?.slice(0, next)?.map(content => <Card info ={content} key={content.id}/>)}
             </div>
