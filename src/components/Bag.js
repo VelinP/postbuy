@@ -13,6 +13,7 @@ export const Bag = () =>{
     const [content ,setcontent] = useState([])
     const [dropdownactive , setdropdownactive] = useState(false)
     const [staticcontent ,setstaticcontent] = useState([])
+    const [showfilter , setshowfilter] = useState(true)
 
     useEffect(()=> {setcontent(items[0].bags);setstaticcontent(items[0].bags)},[])
 
@@ -30,19 +31,30 @@ export const Bag = () =>{
         }
     }
 
+    const filtertogglefunc = () =>{
+        if(showfilter){
+            setshowfilter(false)
+        }else{
+            setshowfilter(true)
+        }
+    }
+
     return(
        
         <>
         <div className="extraassetsdiv">
             <div className="totalnumbersdiv">{content.length} products total in this section</div>
-            <button onClick={togglefunc} className="sortbutton">Sort</button>
+            <div>
+                <button onClick={togglefunc} className="sortbutton">Sort</button>
+                <button onClick={filtertogglefunc} className="sortbutton">Hide filter</button>
+            </div>
         </div>
 
 
         {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive} />}
 
         <div className="contentdiv">
-                <Filter info={content} state={setcontent} static = {staticcontent}/>
+                {showfilter && <Filter info={content} state={setcontent} static = {staticcontent}/>}
             
                 
                     {content.length > 0

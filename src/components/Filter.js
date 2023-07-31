@@ -35,7 +35,7 @@ export const Filter = (props) =>{
     return(
 
         <div className="filterdiv">
-            <h1>Filter</h1>
+            <h1 >Filter</h1>
             <button onClick={discountfilter}>Discount</button>
             <h1>Filter Price</h1>
             <button onClick={allproductsfilter}>All Products</button>
