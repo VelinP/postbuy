@@ -7,8 +7,9 @@
         The data is then imported to the three components 
         (Bags, shoes , watches) with the useEffect hook 
         and stored in a state, basically mimicking
-        a fetch request from a server. Since i don't have
-        the option to use unique keys for the grid , i just added ascending ids to each of the objects,
+        a fetch request from a server. All the data is hardcoded.
+        Since i don't have the option to use unique keys for the grid , 
+        i just added ascending ids to each of the objects,
         starting from 1-100 for bags , 100-200 for shoes , and 200-300 for watches. 
         I think it's okay since i dont have a server to gurantee myself unique ids and since they app 
         doesnt have the functionality to delete i think its passable.
