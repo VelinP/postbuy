@@ -101,7 +101,7 @@ export const items =
     
         { 
             brand : 'Valentino Garavani',
-            price: 1020, 
+            price: 1050, 
             img : 'https://cdn-images.farfetch-contents.com/18/36/38/59/18363859_39559641_1000.jpg',
             model: 'Roman Stud low-top sneakers',
             stars: '⭐⭐⭐☆☆',
@@ -137,7 +137,7 @@ export const items =
     
         { 
             brand : 'Maurice Lacroix',
-            price: 1020, 
+            price: 1250, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100052295/main/large/AI6008-SS00F-530-E_AIKON_ORANGE_43mm_ExtraStrap.jpg',
             model: 'Mens Maurice Lacroix Aikon Automatic Summer',
             stars: '⭐⭐⭐⭐⭐',
@@ -161,7 +161,7 @@ export const items =
     
         { 
             brand : 'Tissot',
-            price: 1020, 
+            price: 1210, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100051350/main/large/T137_407_11_351_00.jpg',
             model: 'Mens Tissot PRX Watch',
             stars: '⭐⭐⭐☆☆',
@@ -174,7 +174,7 @@ export const items =
     
         {
             brand : 'Head',
-            price: 1020, 
+            price: 1540, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100049161/main/large/HEAD_Moscow_H160400_02.jpg',
             model: 'Unisex Black Leather strap Paris Smartwatch',
             stars: '⭐⭐⭐☆☆',
@@ -185,7 +185,7 @@ export const items =
     
         {
             brand : 'Hugo Boss',
-            price: 1020, 
+            price: 1320, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100032735/main/large/1513767_LRG_rgb_Web.jpg',
             model: 'Boss Hero Sport Lux Watch',
             stars: '⭐⭐⭐☆☆',
@@ -196,7 +196,7 @@ export const items =
     
         {
             brand : 'Bulova Octava',
-            price: 1020, 
+            price: 1600, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100039564/main/medium/98C133.jpg',
             model: 'Unisex Bulova Octava Automatic Automatic Watch',
             stars: '⭐⭐⭐☆☆',
@@ -255,7 +255,7 @@ export const items =
     
         {
             brand : 'Head',
-            price: 1020, 
+            price: 1700, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100049161/main/large/HEAD_Moscow_H160400_02.jpg',
             model: 'Unisex Black Leather strap Paris Smartwatch',
             stars: '⭐⭐⭐☆☆',
@@ -266,7 +266,7 @@ export const items =
     
         {
             brand : 'Hugo Boss',
-            price: 1020, 
+            price: 890, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100032735/main/large/1513767_LRG_rgb_Web.jpg',
             model: 'Boss Hero Sport Lux Watch',
             stars: '⭐⭐⭐☆☆',
@@ -278,7 +278,7 @@ export const items =
     
         {
             brand : 'Bulova Octava',
-            price: 1020, 
+            price: 900, 
             img : 'https://d1rkccsb0jf1bk.cloudfront.net/products/100039564/main/medium/98C133.jpg',
             model: 'Unisex Bulova Octava Automatic Automatic Watch',
             stars: '⭐⭐⭐☆☆',
