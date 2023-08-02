@@ -7,7 +7,7 @@ import { DropDownSorter } from "./DropDownSorter";
 
 
 const imagePerRow = 6;
-
+//default const of how many images are rendered at once(for the more items button)
 
 export const Bag = () =>{
     const [content ,setcontent] = useState([])

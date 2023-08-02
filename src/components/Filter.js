@@ -1,8 +1,11 @@
 
 export const Filter = (props) =>{
 
-    //all the function for filter , i tried to add them to a seperate file so it doesnt clog this one but i had some trouble with react for some reason trying to
-    // render two components at once so i just left them all in here
+    //  all the function for filter , i tried to add them to a seperate file so it doesnt clog this one but i had some trouble with react for some reason trying to
+    //  render two components at once so i just left them all in here
+    //  The reason i have two states , one for visualizaiton , and the other for static information , is because
+    //  i had some issues with filter because it changed the default state so if i filtered it 2-3 times it just didnt show any items after filtering
+    //  but with the static state since it never changes i got it to work
     const brands = ['Valentino Garavani', 'Prada', 'Balenciaga', 'Rado', 'Tissot', 'Hugo Boss', 'Gucci']
 
     const discountfilter = () =>{

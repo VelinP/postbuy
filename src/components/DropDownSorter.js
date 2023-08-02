@@ -7,13 +7,11 @@ export const DropDownSorter = (props) =>{
     }
 
     const sortpricefunlowest = () =>{
-
         props.info.sort((p1, p2) => (p1.price - p2.price));
         props.state(false)
     }
 
     const sortalhabeticallyascending = () =>{
-        console.log(props.info)
         props.info.sort((a, b) => a.brand.localeCompare(b.brand))
         props.state(false)
 
@@ -21,7 +19,6 @@ export const DropDownSorter = (props) =>{
     }
 
     const sortalhabeticallydescending = () =>{
-        console.log(props.info)
         props.info.sort((a, b) => b.brand.localeCompare(a.brand))
         props.state(false)
 

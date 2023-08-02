@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom"
-import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs'
-import { FaPhoneFlip} from 'react-icons/fa'
 
 export const Footer = () =>{
     return(

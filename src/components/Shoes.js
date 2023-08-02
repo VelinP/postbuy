@@ -6,6 +6,7 @@ import { Footer } from "./Footer";
 import { DropDownSorter } from "./DropDownSorter";
 
 const imagePerRow = 6;
+//default const of how many images are rendered at once(for the more items button)
 
 
 export const Shoes = () =>{
@@ -14,12 +15,21 @@ export const Shoes = () =>{
     const [staticcontent ,setstaticcontent] = useState([])
     const [showfilter , setshowfilter] = useState(true)
 
+
+        // setting up states
+
     useEffect(()=> {setcontent(items[1].shoes);setstaticcontent(items[1].shoes)},[])
+
+
+        // the function i use for the more button
 
     const [next, setNext] = useState(imagePerRow);
     const handleMoreImage = () => {
         setNext(next + imagePerRow);
       };
+
+
+          //toggle functions for the two buttons in the middle of the screen , one to toggle the filter on the right and the other for the dropdown menu
 
       const togglefunc = () =>{
         if(!dropdownactive){

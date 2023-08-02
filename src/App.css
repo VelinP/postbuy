@@ -79,7 +79,7 @@ body {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3,2fr);
-  gap: 20px;
+  gap: 40px;
 }
 
 .categorysortdiv{
@@ -314,7 +314,6 @@ homepagecardbody{
   width: 200px;
   margin-top: 5px;
   padding: 2px;
-  border-radius: 10px;
   box-shadow: 5px 10px 18px #888888;
 
 }

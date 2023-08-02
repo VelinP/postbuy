@@ -10,22 +10,19 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className='main'>
+      <div className='main'>
       
-      <Routes>
-      
-        <Route path="/" element={<Shoes/>}/>
-        <Route path="/shoes" element={<Shoes/>}/>
-        <Route path="/bags" element={<Bag/>}/>
-        <Route path="/shoes" element={<Shoes/>}/>
-        <Route path="/watches" element={<Watches/>}/>
-        <Route path="/offers/:id/details" element={<Details/>}/>
+        <Routes>
+          <Route path="/" element={<Shoes/>}/>
+          <Route path="/shoes" element={<Shoes/>}/>
+          <Route path="/bags" element={<Bag/>}/>
+          <Route path="/shoes" element={<Shoes/>}/>
+          <Route path="/watches" element={<Watches/>}/>
+          <Route path="/offers/:id/details" element={<Details/>}/>
 
-      </Routes>
+        </Routes>
 
-      
-    </div>
-    {/* <Footer/> */}
+      </div>
     </>
   );
 }
