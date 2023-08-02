@@ -1,3 +1,5 @@
+//big ol file containing all the data that the project uses basically trying to mimic an http request since i dont have a server
+
 export const items = 
     [
     {bags:[
@@ -117,18 +119,6 @@ export const items =
             description: "Inspired by shoes from straight off the basketball court, Off-White's Off-Court 3.0 sneakers boast a sporty aesthetic. The high-top pair is characterised by the signature hallmarks: from the Zip Tie tag to the Arrows motif on the side.",
             discount: "$1000"
         },
-    
-    
-        { 
-            brand : 'Wooden Flip Flops',
-            price: 102, 
-            img : 'https://m.media-amazon.com/images/I/61gvZF5iEUL._AC_UY1000_.jpg',
-            model: 'Generic flip flops',
-            stars: '⭐⭐⭐☆☆',
-            id : 107,
-            description: "Wooden style traditional Japanese flip-flops. Not very practical to use nowadays , but they look pretty cool.",
-            discount: ""
-        }
     
     
     ]},

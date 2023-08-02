@@ -15,9 +15,11 @@ body {
   flex-direction: column;
   opacity: 0.90;
   height: 70px;
-  background-color: rgb(248, 232, 232);
+  /* background-color: rgb(248, 232, 232); */
+    background-color: #96C2DB;
+
   box-shadow: 3px 3px 3px black;
-  text-shadow: 1px 1px 2px pink;
+  /* text-shadow: 1px 1px 2px pink; */
   position: sticky;
   top: 0;
 
@@ -50,7 +52,7 @@ body {
 }
 
 .filterdiv{
-  background-color: rgb(221, 215, 215);
+  /* background-color: #96C2DB; */
   padding: 20px;
   display: flex;
   gap: 10px;
@@ -76,7 +78,7 @@ body {
   width: 90%;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3,3fr);
+  grid-template-columns: repeat(3,2fr);
   gap: 20px;
 }
 
@@ -190,6 +192,18 @@ homepagecardbody{
 
 }
 
+.footerrightdiv a{
+  text-decoration: none;
+  color: rgb(211, 196, 196);
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+
+
+
+
 .maindetails{
   display: flex;
   justify-content: center;
@@ -243,13 +257,13 @@ homepagecardbody{
   width: 100%;
   border: none;
   padding: 7px;
-  background-color: rgb(252, 224, 224);
-  border: solid black 1px;
+  background-color:#96C2DB;
+
 }
 
 
 .dropdownmenu button:hover{
-  background-color: rgb(236, 176, 176);
+  background-color: #6492ad;
   transition: 0.5s;
 
 }
@@ -292,43 +306,44 @@ homepagecardbody{
 
 .maindropdownmenu{
   position: absolute;
-  top: 4.5rem;
-  right:1.5rem;
+  top: 6rem;
+  right: 50%;
 
   display: flex;
   justify-content: center;
   width: 200px;
   margin-top: 5px;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
 
- 
 }
+
+
+
 .dropdownmenu{
   width: 200px;
-  background-color: gray;
+  
 }
 
-.maindropdownmenu::before{
-  position: absolute;
-  top: -1rem;
-  right: 2rem;
-  content: '';
-  transform: rotate(45deg); 
-}
 
-.filterdiv button{
+
+.filterdiv div{
   border: none;
   background-color: inherit;
-  display: flex;
-  font-weight:bolder;
-  text-shadow: 1px 1px 2px pink;
-  font-size: 20px;
+  /* font-weight:bolder; */
+  font-size: 15px;
+  display: block;
+
+  
 
 
 }
 
-.filterdiv button:hover{
+.filterdiv div:hover{
   transition: 0.2s;
-  color: rgb(162, 154, 154);;
+  color: rgb(162, 154, 154);
+  cursor: pointer;
 
 }
 
@@ -351,5 +366,7 @@ homepagecardbody{
 
 .extraassetsdiv div button:hover{
   transition: 0.2s;
-  color: rgb(162, 154, 154);;
+  color: rgb(162, 154, 154);
+  cursor: pointer;
+
 }

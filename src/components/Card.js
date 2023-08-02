@@ -3,7 +3,8 @@ import { Link } from "react-router-dom"
 export const Card = (props) =>{
     
     return(
-
+    
+    //the card element thats reused to render the items
         
     <div className="homepagecardheader">
         <Link to={`/offers/${props.info.id}/details`} ><img className="homepagecardimg" src={props.info.img} alt='nothing'></img></Link>
@@ -27,4 +28,3 @@ export const Card = (props) =>{
     )
 }
 
-// style={{justifyContent:"center", display:"flex", color:'green'}}

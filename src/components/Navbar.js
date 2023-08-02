@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import {FaHome} from 'react-icons/fa'
+import {MdSell} from 'react-icons/md'
 
 
 export const Navbar = ()=>{
@@ -9,7 +9,7 @@ export const Navbar = ()=>{
     <nav className='mainnav'>
         <ul className='mainul'>
             <>
-            <Link to ="/shoes"><FaHome size={'1.4rem'}/></Link>
+            <Link to ="/shoes"><MdSell size={'1.4rem'}/></Link>
             <Link to ="/bags">Bags</Link>
             <Link to ="/shoes">Shoes</Link>
             <Link to ="/watches">Watches</Link>

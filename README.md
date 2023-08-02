@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+IMPORTANT!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+How the application works:
 
-## Available Scripts
+    1.  Since i don't have a server to use, in the data.js file there is a big object representing all the data in the project.
+        The data is then imported to the three components (Bags, shoes , watches) with the useEffect hook and stored in a state, basically mimicking
+        a fetch request from a server.
 
-In the project directory, you can run:
+    2.  There are three main components - shoes , bags , and watches. All the items are displayed in a grid, with a filter to the left of the grid(toggleable).
+        If you click on the image of one of the cards displayed on the grid , you will be redirected to a details page with all the information of the product,
+        as well as a button to buy it(just shows an alert when you click it).
 
-### `npm start`
+    3. Sorting. You can sort any of the three components alphabetically (by brand name basically) either ascending or descending. You can also sort by price.
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    4. Filters. Unfortunately i couldn't figure out how to have two filters active at the same time (by selecting multiple ways to filter), so the              
+        way the filter works is you can filter only by one element at a time (various prices), as well as filter if the item is on sale or not.
+        You can also filter by certain brands and others (check description of filter component). You cant filter by two criterias at once , but you can combine filter and sort.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    5.  More content button. It just works like a normal button. Max items that can be shown by default are 6 , and if there are more than 6 available the more content button will appear, and naturally if there are no more to show itl disappear. (Check the watches section as it has 14 total items)
 
-### `npm test`
+    6. I have described how the project works in the code itself with notes to easier understand.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    7. Since in the task description it said room for logo icon , i have added a small home icon at the top (in place of the actual logo icon).
 
-### `npm run build`
+    8. I have only used react for this application as well as an icons library and react router.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    9. Since i don't know react native yet and learning it will take longer than the time i have available for this project the application doesn't appear properly on mobile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    10. The most challenging parts for me were basically the drop down menu for sorting(I had alot of trouble figuring out how the dropdown works , the functionality was easy), as well as the filtering with multiple criterias at the same time.

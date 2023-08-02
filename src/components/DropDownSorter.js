@@ -1,5 +1,5 @@
 export const DropDownSorter = (props) =>{
-    
+    // the menu that gets activated once you click on sort 
     const sortpricefunchighest = () =>{
 
         props.info.sort((p1, p2) => (p2.price - p1.price));

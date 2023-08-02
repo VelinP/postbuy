@@ -12,6 +12,8 @@ export const Details = () =>{
     const arr = []
     let detailsitem = {}
 
+    //i had some trouble here since i dont use a server and i had to get the correct item with the id from useparams , the code is kindof a mess but it works
+
     const secretitems = items.map(item => ((Object.values(item))))
     secretitems.map(item => arr.push(item[0]))
 
@@ -34,11 +36,8 @@ export const Details = () =>{
         <div className="maindetails">
             <div className="detailsDiv">
                 <img className="offerimg" src={currentDetails?.img} alt="nothing"/>
-                
-                
-                
                 <div className="descdiv">
-                    <h1 style={{justifyContent:"left", display:"flex"}}>{currentDetails?.brand}</h1>
+                    <h1 style={{justifyContent:"left", display:"flex" , textShadow:"1px 1px 2px pink"}}>{currentDetails?.brand}</h1>
 
                     <div className="detailspricesdiv">
                         <div >${currentDetails?.price}</div>
@@ -47,14 +46,14 @@ export const Details = () =>{
 
 
 
-                    <p style={{justifyContent:"left", display:"flex"}}>{currentDetails?.stars}</p>
-                    <p>{currentDetails?.model}</p>
-                    
+                        <p style={{justifyContent:"left", display:"flex"}}>{currentDetails?.stars}</p>
+                        <p style={{textShadow:"1px 1px 2px pink"}}>{currentDetails?.model}</p>
+                        
 
-                    <p>{currentDetails?.description}</p>
-                    
-                    <div className="detailsbuttonsdiv">
-                    <button onClick={handlefunc}>Add to cart</button>
+                        <p style={{textShadow:"1px 1px 2px pink"}}>{currentDetails?.description}</p>
+                        
+                        <div className="detailsbuttonsdiv">
+                        <button onClick={handlefunc}>Add to cart</button>
                     </div>
 
                 

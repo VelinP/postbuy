@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs'
-
+import { FaPhoneFlip} from 'react-icons/fa'
 
 export const Footer = () =>{
     return(
@@ -38,10 +38,13 @@ export const Footer = () =>{
 
         
 
-        <div className="linksdiv">
-          <Link to={"https://www.facebook.com/velin.porchev/"}><BsFacebook size={'3rem'}/></Link>
-          <Link to={"https://www.linkedin.com/in/velin-porchev-857202283/"}><BsLinkedin size={'3rem'}/></Link>
-          <Link to={"https://github.com/VelinP"}><BsGithub size={'3rem'}/></Link>
+        <div className="footerrightdiv">
+            <h1>Further Info</h1>
+
+            <Link>Find us on the map</Link>
+            <Link>FAQ</Link>
+            <Link>+359 884690940</Link>
+
         </div>
 
       </div>

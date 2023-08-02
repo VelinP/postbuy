@@ -43,11 +43,12 @@ export const Watches = () =>{
         
             <>
             <div className="extraassetsdiv">
-                <div className="totalnumbersdiv">{content.length} products total in this section</div>
                 <div>
                     <button onClick={togglefunc} className="sortbutton">Sort</button>
-                    <button onClick={filtertogglefunc} className="sortbutton">Hide filter</button>
+                    <button onClick={filtertogglefunc} className="sortbutton">Filter</button>
                 </div>
+                <div className="totalnumbersdiv">{content.length} products total in this section</div>
+
             </div>
             {dropdownactive && <DropDownSorter info={content} state ={setdropdownactive}/>}
             <div className="contentdiv">
@@ -65,7 +66,7 @@ export const Watches = () =>{
                     :
                 
                     <h1 className="nocontentdiv">
-                    No items found
+                        <img src={'https://www.24worldnewslive.com/public/images/videos_not_found.png'} alt="nothing"></img>
                     </h1>
                 
                     }
