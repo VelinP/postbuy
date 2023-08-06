@@ -27,7 +27,7 @@ export const Bag = () =>{
     
     const togglefunc = () =>{
         if(!dropdownactive){
-            setdropdownactive(true)
+            setdropdownactive(true) 
         }else{
             setdropdownactive(false)
         }
