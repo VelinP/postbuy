@@ -1,5 +1,25 @@
+
+import { useEffect } from "react";
+
+
+
 export const DropDownSorter = (props) =>{
-    // the menu that gets activated once you click on sort 
+    
+    useEffect(()=> {
+
+        const closedropdown = (e) =>{
+            console.log(e);
+            
+        };
+
+        document.body.addEventListener('click', closedropdown);
+        return () => document.body.removeEventListener('click', closedropdown)
+
+
+    },[]
+    )
+
+
     const sortpricefunchighest = () =>{
 
         props.info.sort((p1, p2) => (p2.price - p1.price));
@@ -26,8 +46,8 @@ export const DropDownSorter = (props) =>{
     }
     
     return(
-        <div className="maindropdownmenu">
-        <div className="dropdownmenu">
+        <div className="maindropdownmenu" >
+        <div className={'dropdownmenu'}>
         
                 <button onClick={sortpricefunchighest}>Most expensive</button>
                 <button onClick={sortpricefunlowest}>Least Expensive</button>

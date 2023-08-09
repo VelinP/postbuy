@@ -6,7 +6,10 @@ import { Bag } from './components/Bag';
 import { Watches } from './components/Watches';
 import { Details } from './components/Details';
 
+
+
 function App() {
+  
   return (
     <>
     <Navbar/>
