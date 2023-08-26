@@ -46,7 +46,7 @@ body {
 .mainul{
   display: flex;
   justify-content: left;
-  gap: 15px;
+  gap: 14px;
   
 }
 
